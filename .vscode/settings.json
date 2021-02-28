@@ -4,5 +4,21 @@
     },
     "eslint.workingDirectories": [
         "./nest-study"
-    ]
+    ],
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "version": "v1",
+            "port": "3001"
+        },
+        "dev": {
+            "host": "localhost",
+            "version": "v2"
+        },
+        "stg": {
+            "host": "stg.hoge.jp",
+        },
+        "prod": {
+            "host": "prod.hoge.jp",
+        }
+    }
 }
